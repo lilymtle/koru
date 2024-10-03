@@ -8,11 +8,12 @@ const Header = () => {
 
     return (
         <header className="bg-transparent flex flex-col items-center flex-nowrap md:flex-row justify-between">
-            <img
-                className="mb-4"
-                src="/images/logos/logo.png"
-                alt="koru logo"
-            />
+            <Link href="/">
+                <img
+                    className="mb-4"
+                    src="/images/logos/logo.png"
+                    alt="koru logo" />
+            </Link>
             <nav>
                 <MenuNav />
                 <div className="nav__wrapper hidden md:block ">
@@ -26,14 +27,14 @@ const Header = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/"
+                                href="/about"
                                 className="text-sm md:text-base nav-hover-bg">
                                 About
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                href="/"
+                                href="/login"
                                 className="text-sm md:text-base nav-hover-bg">
                                 Login
                             </Link>
