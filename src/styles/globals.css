@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-hover-bg:hover {
+    color: #5F6F52;
+    transition: 0.3s ease-in-out;
+}
