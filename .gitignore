@@ -6,6 +6,10 @@ node_modules
 
 # environment variable files
 **/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
 
 # macOS specific file
 **/.DS_Store
