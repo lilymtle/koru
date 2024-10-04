@@ -1,17 +1,17 @@
 "use client";
 
-// Import component
+// import components
 import Link from "next/link";
 import MenuNav from "../MenuNav/MenuNav";
 
 const Header = () => {
 
     return (
-        <header className="bg-transparent flex flex-col items-center flex-nowrap md:flex-row justify-between p-4">
+        <header className="bg-transparent w-full flex justify-between p-4">
             <Link href="/">
                 <img
-                    className="mb-4"
-                    src="/assets/logos/logo.png"
+                    className="w-10/12 mb-4"
+                    src=""
                     alt="koru logo" />
             </Link>
             <nav>
