@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex flex-col items-center">
+    <main id="main" className="flex flex-col items-center p-4">
       Main content placeholder
     </main>
   );
