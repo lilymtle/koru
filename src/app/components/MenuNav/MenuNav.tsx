@@ -1,6 +1,9 @@
 "use client";
 
+// import react
 import * as React from 'react';
+
+// import components
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -25,7 +28,7 @@ const MenuNav = () => {
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
             >
-                <MenuIcon sx={{color: "#A9B388"}}/>
+                <MenuIcon sx={{color: "#FFFFFF"}}/>
             </Button>
             <Menu
                 id="basic-menu"
