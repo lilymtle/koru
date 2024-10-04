@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="flex flex-row justify-between">
+        <footer className="flex flex-row justify-between p-4">
             <p className="text-xs">
                 Made with ♡ by Lily 
             </p>
