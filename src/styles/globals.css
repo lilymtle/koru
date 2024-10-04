@@ -2,7 +2,127 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Lato';
+    src: url("/assets/fonts/Lato-Regular.woff2") format('woff2'),
+        url('/assets/fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAF9F6;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+/* header nav-bar */
 .nav-hover-bg:hover {
     color: #5F6F52;
     transition: 0.3s ease-in-out;
+}
+
+/* hero section */
+.hero {
+    background: linear-gradient(-38deg, #E4E1D4, #A3B58A);
+    background-size: 200% 200%;
+    -webkit-animation: verticalBreathing 15s ease infinite;
+    animation: verticalBreathing 15s ease infinite;
+    display: flex;
+    height: 100vh;
+}
+
+.hero-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    border-radius: 50%;
+}
+
+.hero-btn--beige {
+    background-color: #FEFAE0;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 1.25rem;
+}
+
+.hero-btn--beige:hover {
+    background-color: transparent;
+    border: .0625rem solid #FEFAE0;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-btn--camel-brown {
+    background-color: #B99470;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 1.25rem;
+}
+
+.hero-btn--camel-brown:hover {
+    background-color: transparent;
+    border: .0625rem solid #B99470;
+    transition: 0.3s ease-in-out;
+}
+
+.wiggle {
+    animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes verticalBreathing {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    25% {
+        background-position: 40% 40%;
+    }
+
+    50% {
+        background-position: 80% 80%;
+    }
+
+    75% {
+        background-position: 20% 60%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+@keyframes wiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(5deg);
+    }
+    20% {
+        transform: rotate(-5deg);
+    }
+    30% {
+        transform: rotate(3deg);
+    }
+    40% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    60%, 70% {
+        transform: rotate(0deg);
+    }
+}
+
+.wiggle {
+    animation: wiggle 2s ease-in-out infinite;
 }
