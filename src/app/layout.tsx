@@ -19,11 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className="antialiased">
-            <Header />
             <Hero />
-
             {children}
-
             <Footer />
       </body>
     </html>
