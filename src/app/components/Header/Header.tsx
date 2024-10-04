@@ -7,11 +7,11 @@ import MenuNav from "../MenuNav/MenuNav";
 const Header = () => {
 
     return (
-        <header className="bg-transparent flex flex-col items-center flex-nowrap md:flex-row justify-between">
+        <header className="bg-transparent flex flex-col items-center flex-nowrap md:flex-row justify-between p-4">
             <Link href="/">
                 <img
                     className="mb-4"
-                    src="/images/logos/logo.png"
+                    src="/assets/logos/logo.png"
                     alt="koru logo" />
             </Link>
             <nav>
