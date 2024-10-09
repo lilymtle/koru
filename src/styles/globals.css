@@ -23,8 +23,8 @@ body {
 
 /* header nav-bar */
 .nav-hover-bg:hover {
-    color: #5F6F52;
-    transition: 0.3s ease-in-out;
+    color: #FF7676;
+    transition: 0.5s ease-in-out;
 }
 
 /* hero section */
