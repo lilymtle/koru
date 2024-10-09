@@ -87,22 +87,35 @@ body {
     margin-bottom: 1rem;
 }
 
-.main__carousel-slide-title {
-    color: #FF7676;
-    font-size: 1.125rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
 .main__cta-btn {
     background-color: #FF7676;
     color: #FFFFFF;
+    font-weight: bold;
     padding-block: 0.25rem;
-    padding-inline: 0.5rem;
+    padding-inline: 1rem;
     border-radius: 1.25rem;
 
     &:hover {
         background-color: #4A4947;
         transition: 0.5s ease-in-out;
     }
+}
+
+/* carousel component */
+.carousel__slide-title {
+    color: #A67B5B;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.carousel__btn {
+    background-color: #A67B5B;
+    color: #FFFFFF;
+    border: none; 
+    cursor: pointer;
+}
+
+.carousel__btn:hover {
+    transition: 0.5s ease-in-out
 }
