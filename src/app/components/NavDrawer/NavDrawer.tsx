@@ -45,7 +45,7 @@ const NavDrawer = () => {
         >
             <List>
                 {navItems.map(item => (
-                    <ListItem disablePadding>
+                    <ListItem key={item.url} disablePadding>
                         <ListItemButton>
                             <ListItemIcon>
                                 {item.icon}
