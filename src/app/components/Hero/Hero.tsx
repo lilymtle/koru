@@ -6,7 +6,7 @@ import { Box } from "@mui/material";
 
 const Hero = () => {
     return (
-        <section className="hero h-screen">
+        <section className="hero">
             <div className="relative h-screen">
                 <video 
                     playsInline
@@ -20,16 +20,19 @@ const Hero = () => {
                 <div className="hero-content h-full flex flex-col justify-between p-4">
                     <Header />
 
-                    <div className="hero-wrapper">
-                        <h1 className="text-5xl font-bold text-center text-white uppercase">
-                            Koru
+                    <div className="hero-wrapper h-4/6 flex flex-col justify-between items-center">
+                        <Link href="/">
+                            <img
+                                src="/assets/logos/logo.png"
+                                alt="koru logo" />
+                        </Link>
+
+                        <h1 className="hero-header text-4xl text-white font-bold text-center leading-normal">
+                            Rooted in <span className="uppercase">reflection</span>, 
+                            blossoming in <span className="uppercase">growth</span>.
                         </h1>
 
-                        <h2 className="text-3xl font-bold text-center text-white mb-8">
-                            Rooted in <span className="uppercase">reflection</span>, blossoming in <span className="uppercase">growth</span>.
-                        </h2>
-
-                        <div className="hero-cta flex flex-row justify-center gap-4 mb-8">
+                        <div className="hero-cta flex flex-row justify-center gap-4">
                             <Link href="/register">
                                 <p className="hero-btn--beige">
                                     Register
