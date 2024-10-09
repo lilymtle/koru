@@ -27,10 +27,6 @@ body {
 }
 
 /* hero section */
-.hero-header {
-    text-shadow: .0625rem .0625rem .125rem rgba(0, 0, 0, 0.5);
-}
-
 .hero-btn--gray {
     background-color: #4A4947;
     color: #FFFFFF;
@@ -57,4 +53,9 @@ body {
     background-color: transparent;
     border: .0625rem solid #FFFFFF;
     transition: 0.3s ease-in-out;
+}
+
+/* main section */
+.main-benefits {
+    background-color: #E76161;
 }
