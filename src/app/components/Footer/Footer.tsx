@@ -1,3 +1,6 @@
+// import component
+import Link from "next/link";
+
 const Footer = () => {
     return (
         <footer className="footer">
@@ -17,12 +20,17 @@ const Footer = () => {
                     </h4>
 
                     <ul>
-                        <li className="text-xs leading-relaxed">
-                            About
-                        </li>
-                        <li className="text-xs leading-relaxed">
-                            Contact
-                        </li>
+                        <Link className="footer__link" href="/about">
+                            <li className="text-xs leading-relaxed">
+                                About
+                            </li>
+                        </Link>
+                        
+                        <Link className="footer__link" href="/contact">
+                            <li className="text-xs leading-relaxed">
+                                Contact
+                            </li>
+                        </Link>
                     </ul>
                 </div>
 
@@ -32,12 +40,17 @@ const Footer = () => {
                     </h4>
 
                     <ul>
-                        <li className="text-xs leading-relaxed">
-                            LinkedIn
-                        </li>
-                        <li className="text-xs leading-relaxed">
-                            GitHub
-                        </li>
+                        <Link className="footer__link" href="https://linkedin.com/in/lilymtle">
+                            <li className="text-xs leading-relaxed">
+                                LinkedIn
+                            </li>
+                        </Link>
+
+                        <Link className="footer__link" href="https://github.com/lilymtle">
+                            <li className="text-xs leading-relaxed">
+                                GitHub
+                            </li>
+                        </Link>
                     </ul>
                 </div>
 
@@ -47,9 +60,11 @@ const Footer = () => {
                     </h4>
 
                     <ul>
-                        <li className="text-xs leading-relaxed">
-                            MoodCompass
-                        </li>
+                        <Link className="footer__link" href="https://mood-compass.vercel.app/">
+                            <li className="text-xs leading-relaxed">
+                                MoodCompass
+                            </li>
+                        </Link>
                     </ul>
                 </div>
             </section>
