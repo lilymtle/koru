@@ -59,6 +59,7 @@ body {
     text-transform: uppercase;
     padding-block: 0.5rem;
     padding-inline: 1rem;
+    border: .0625rem solid #4A4947;
     border-radius: 1.25rem;
 }
 
@@ -75,6 +76,7 @@ body {
     text-transform: uppercase;
     padding-block: 0.5rem;
     padding-inline: 1rem;
+    border: .0625rem solid #A67B5B;
     border-radius: 1.25rem;
 }
 
