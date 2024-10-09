@@ -1,3 +1,6 @@
+// import data
+import { gratitudeBenefits } from "./data/gratitudeBenefits";
+
 // import component
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import { Divider } from '@mui/material';
@@ -36,96 +39,24 @@ export default function Home() {
         </h2>
 
         <ul className="main__card-list">
-        <li className="main__card-item">
-            <img
-              className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-1.png"
-              alt="photo" />
+          {gratitudeBenefits.map(benefit => (
+            <li key={benefit.id} className="main__card-item">
+              <img
+                className="card__img w-36 h-36 rounded-full object-cover mb-4"
+                src={benefit.image}
+                alt="photo" />
 
-            <h3 className="card__title">
-              Improved Mental Health
-            </h3>
+              <h3 className="card__title">
+                {benefit.title}
+              </h3>
 
-            <p className="text-center">
-              Practicing gratitude can reduce symptoms of depression and anxiety, promoting a more positive mindset.
-            </p>
-          </li>
+              <p className="text-center">
+                {benefit.description}
+              </p>
 
-          <Divider sx={{margin: "0", padding: "0"}} />
-
-          <li className="main__card-item">
-            <img
-              className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-2.png"
-              alt="photo" />
-
-            <h3 className="card__title">
-              Enhanced Relationships
-            </h3>
-
-            <p className="text-center">
-              Expressing gratitude strengthens relationships by fostering 
-              connection and appreciation between individuals.
-            </p>
-          </li>
-
-          <Divider sx={{margin: "0", padding: "0"}} />
-
-
-          <li className="main__card-item">
-            <img
-              className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-3.png"
-              alt="photo" />
-
-            <h3 className="card__title">
-              Better Physical Health
-            </h3>
-
-            <p className="text-center">
-              Grateful individuals often experience fewer health issues, as 
-              gratitude can lead to improved sleep, reduced pain, 
-              and healthier lifestyles.
-            </p>
-          </li>
-
-            <Divider sx={{margin: "0", padding: "0"}} />
-
-
-          <li className="main__card-item">
-            <img
-              className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-4.png"
-              alt="photo" />
-
-            <h3 className="card__title">
-              Increased Resilience
-            </h3>
-
-            <p className="text-center">
-              Gratitude helps people cope better with stress and adversity, 
-              enhancing their ability to bounce back from challenges.
-            </p>
-          </li>
-
-            <Divider sx={{margin: "0", padding: "0"}} />
-
-
-          <li className="main__card-item">
-            <img
-              className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-5.png"
-              alt="photo" />
-
-            <h3 className="card__title">
-              Greater Life Satisfaction
-            </h3>
-
-            <p className="text-center">
-              Regularly acknowledging what you’re thankful for can boost overall happiness and
-              contentment, leading to a more fulfilling life.
-            </p>
-          </li>
+              <Divider sx={{margin: "0", padding: "0"}} />
+            </li>
+          ))}
         </ul>
       </section>
     </main>
