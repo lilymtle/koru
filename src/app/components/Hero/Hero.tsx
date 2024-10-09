@@ -20,7 +20,7 @@ const Hero = () => {
                 <div className="hero-content h-full flex flex-col justify-between p-4">
                     <Header />
 
-                    <div className="hero-wrapper h-4/6 flex flex-col justify-around items-center">
+                    <div className="hero-wrapper h-4/6 flex flex-col justify-center items-center gap-14">
                         <Link href="/">
                             <img
                                 src="/assets/logos/logo.png"
