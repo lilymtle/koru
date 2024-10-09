@@ -56,6 +56,33 @@ body {
 }
 
 /* main section */
-.main-benefits {
-    background-color: #E76161;
+.main__quote {
+    background-color: #FF7676;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main__card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 0; 
+
+    &:hover {
+        background-color: #EEEEEE;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.card__title {
+    color: #A67B5B;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
