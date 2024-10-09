@@ -132,6 +132,12 @@ body {
     margin: 1rem;
 }
 
+.floating-button:hover {
+    background-color: #6F4E37;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
 /* footer component */
 .footer {
     background-color: #4A4947;
