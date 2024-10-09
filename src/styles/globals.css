@@ -31,6 +31,8 @@ body {
 .hero-btn--gray {
     background-color: #4A4947;
     color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border-radius: 1.25rem;
@@ -45,6 +47,8 @@ body {
 .hero-btn--brown {
     background-color: #A67B5B;
     color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border-radius: 1.25rem;
