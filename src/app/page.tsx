@@ -46,7 +46,7 @@ export default function Home() {
               <img
                 className="card__img w-36 h-36 rounded-full object-cover mb-4 md:w-40 md:h-40"
                 src={benefit.image}
-                alt="photo" />
+                alt={benefit.alt} />
 
               <h3 className="main__card-title">
                 {benefit.title}
