@@ -17,20 +17,15 @@ const Hero = () => {
                     <source src="/assets/videos/hero-video.mp4" type="video/mp4" />
                 </video>
                 
-                <div className="hero-content h-full flex flex-col justify-between p-4">
+                <div className="hero-content h-full flex flex-col justify-between p-8">
                     <Header />
 
-                    <div className="hero-wrapper h-4/6 flex flex-col justify-center items-center gap-14">
+                    <div className="hero-wrapper h-4/6 flex flex-col justify-center items-center gap-14 md:h-full md:justify-evenly">
                         <Link href="/">
                             <img
                                 src="/assets/logos/logo.png"
                                 alt="koru logo" />
                         </Link>
-
-                        {/* <h1 className="hero-header text-4xl text-white font-bold text-center leading-normal">
-                            Rooted in <span className="uppercase">reflection</span>, 
-                            blossoming in <span className="uppercase">growth</span>.
-                        </h1> */}
 
                         <div className="hero-cta flex flex-row justify-center gap-4">
                             <Link href="/register">
