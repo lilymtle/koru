@@ -10,7 +10,7 @@ import {
 
 const ContentCarousel = () => {
     return (
-        <section className="w-3/5 mt-4 mb-4">
+        <section className="w-3/5 my-4 md:w-9/12 md:my-8">
             <Carousel
                 opts={{
                     align: "start",
