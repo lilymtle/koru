@@ -9,7 +9,7 @@ import Carousel from "./components/Carousel/Carousel";
 
 export default function Home() {
   return (
-    <main id="main">
+    <main id="main" className="mb-4">
       <div className="w-full flex flex-col gap-4 p-4">
         <h1 className="text-4xl text-gray-600 font-bold self-center leading-snug">
           Rooted in <span className="uppercase">reflection</span>, 
