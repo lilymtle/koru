@@ -140,3 +140,8 @@ body {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
+
+.footer__link:hover {
+    color: #FF7676;
+    transition: 0.5s ease-in-out;
+}
