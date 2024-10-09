@@ -10,33 +10,33 @@ import Carousel from "./components/Carousel/Carousel";
 export default function Home() {
   return (
     <main id="main" className="mb-4">
-      <div className="w-full flex flex-col gap-4 p-4">
-        <h1 className="text-4xl text-gray-600 font-bold self-center leading-snug">
+      <div className="w-full flex flex-col gap-4 p-4 md:p-20">
+        <h1 className="text-4xl md:text-6xl text-gray-600 font-bold self-center leading-snug">
           Rooted in <span className="uppercase">reflection</span>, 
           blossoming in <span className="uppercase">growth</span>.
         </h1>
 
-        <p>
+        <p className="text-gray-500 md:text-lg">
           Koru connects you to the Māori concept of growth and renewal, 
           inviting daily reflections to foster gratitude and mindfulness.
         </p>
         
       </div>
 
-      <section className="main__quote">
+      <section className="main__quote md:p-20">
         <FormatQuoteIcon sx={{fontSize: "40px"}} />
-        <h2 className="text-3xl text-center mb-4">
+        <h2 className="text-3xl md:text-5xl text-center mb-4">
           Gratitude unlocks the fullness of life.
           It turns what we have into enough, and more.
         </h2>
         
-        <p className="italic">
+        <p className="md:text-lg italic">
         — Melody Beattie
         </p>
       </section>
 
-      <section className="main__benefits text-gray-500 h-content p-4">
-        <h2 className="text-2xl uppercase font-bold text-center mb-4">
+      <section className="main__benefits text-gray-500 h-content p-4 md:p-20">
+        <h2 className="text-2xl md:text-4xl uppercase font-bold text-center mb-4 md:mb-8">
           Why Gratitude?
         </h2>
 
@@ -44,7 +44,7 @@ export default function Home() {
           {gratitudeBenefits.map(benefit => (
             <li key={benefit.id} className="main__card-item">
               <img
-                className="card__img w-36 h-36 rounded-full object-cover mb-4"
+                className="card__img w-36 h-36 rounded-full object-cover mb-4 md:w-40 md:h-40"
                 src={benefit.image}
                 alt="photo" />
 
@@ -62,7 +62,7 @@ export default function Home() {
         </ul>
       </section>
 
-      <section className="main__cta flex flex-col items-center gap-4">
+      <section className="main__cta flex flex-col items-center gap-4 md:p-14">
         <h2 className="text-2xl uppercase text-gray-500 font-bold text-center">
           Nurture Gratitude in Your Life with Koru
         </h2>
