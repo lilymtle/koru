@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Lato';
-    src: url("/assets/fonts/Lato-Regular.woff2") format('woff2'),
-        url('/assets/fonts/Lato-Regular.woff') format('woff');
+    font-family: "Lato";
+    src: url("/assets/fonts/Lato-Regular.woff2") format("woff2"),
+        url("/assets/fonts/Lato-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -85,25 +85,9 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1279px) {
-    .main__card-list {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1279px) {
-    .main__card-item {
-        width: 30%;
-    }
-}
-
 .main__card-title {
     color: #A67B5B;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -122,64 +106,23 @@ body {
     }
 }
 
-/* carousel component */
-.carousel__slide-title {
-    color: #A67B5B;
-    font-size: 1.125rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
 
-.carousel__btn {
-    background-color: #A67B5B;
-    color: #FFFFFF;
-    border: none; 
-    cursor: pointer;
-}
+/* tablet media query */
+@media (min-width: 768px) and (max-width: 1279px) {
+    .main__card-list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 
-.carousel__btn:hover {
-    transition: 0.5s ease-in-out
-}
+    .main__card-title {
+        font-size: 1.25rem;
+    }
 
-/* floating button component */
-.floating-button {
-    position: fixed;
-    background-color: #A67B5B;
-    border-radius: 50%;
-    padding: 0.7rem;
-    bottom: 0;
-    right: 0;
-    margin: 1rem;
-}
+    .main__card-item {
+        width: 30%;
+    }
 
-.floating-button:hover {
-    background-color: #6F4E37;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-}
-
-/* footer component */
-.footer {
-    background-color: #4A4947;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-.footer__title {
-    color: #FF7676;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-}
-
-.footer__link:hover {
-    color: #FF7676;
-    transition: 0.5s ease-in-out;
 }
