@@ -20,27 +20,27 @@ const Hero = () => {
                 <div className="hero-content h-full flex flex-col justify-between p-4">
                     <Header />
 
-                    <div className="hero-wrapper h-4/6 flex flex-col justify-between items-center">
+                    <div className="hero-wrapper h-4/6 flex flex-col justify-around items-center">
                         <Link href="/">
                             <img
                                 src="/assets/logos/logo.png"
                                 alt="koru logo" />
                         </Link>
 
-                        <h1 className="hero-header text-4xl text-white font-bold text-center leading-normal">
+                        {/* <h1 className="hero-header text-4xl text-white font-bold text-center leading-normal">
                             Rooted in <span className="uppercase">reflection</span>, 
                             blossoming in <span className="uppercase">growth</span>.
-                        </h1>
+                        </h1> */}
 
                         <div className="hero-cta flex flex-row justify-center gap-4">
                             <Link href="/register">
-                                <p className="hero-btn--beige">
+                                <p className="hero-btn--gray">
                                     Register
                                 </p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="hero-btn--camel-brown">
+                                <p className="hero-btn--brown">
                                     Learn More
                                 </p>
                             </Link>
