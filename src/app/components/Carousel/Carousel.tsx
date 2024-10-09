@@ -18,7 +18,7 @@ const ContentCarousel = () => {
                 }}>
                 <CarouselContent>
                     <CarouselItem className="flex flex-col items-center">
-                        <h3 className="main__carousel-slide-title">
+                        <h3 className="carousel__slide-title">
                             Daily Prompts
                         </h3>
 
@@ -29,7 +29,7 @@ const ContentCarousel = () => {
                         </p>
                     </CarouselItem>
                     <CarouselItem className="flex flex-col items-center">
-                        <h3 className="main__carousel-slide-title">
+                        <h3 className="carousel__slide-title">
                             Secure Privacy
                         </h3>
 
@@ -40,7 +40,7 @@ const ContentCarousel = () => {
                         </p>
                     </CarouselItem>
                     <CarouselItem className="flex flex-col items-center">
-                        <h3 className="main__carousel-slide-title">
+                        <h3 className="carousel__slide-title">
                             Mobile Accessibility
                         </h3>
 
@@ -50,8 +50,8 @@ const ContentCarousel = () => {
                         </p>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className="carousel__btn" />
+                <CarouselNext className="carousel__btn" />
             </Carousel>
         </section>
     );
