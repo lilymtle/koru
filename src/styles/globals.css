@@ -31,29 +31,31 @@ body {
     text-shadow: .0625rem .0625rem .125rem rgba(0, 0, 0, 0.5);
 }
 
-.hero-btn--beige {
-    background-color: #FEFAE0;
+.hero-btn--gray {
+    background-color: #4A4947;
+    color: #FFFFFF;
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border-radius: 1.25rem;
 }
 
-.hero-btn--beige:hover {
+.hero-btn--gray:hover {
     background-color: transparent;
-    border: .0625rem solid #FEFAE0;
+    border: .0625rem solid #FFFFFF;
     transition: 0.3s ease-in-out;
 }
 
-.hero-btn--camel-brown {
-    background-color: #B99470;
+.hero-btn--brown {
+    background-color: #A67B5B;
+    color: #FFFFFF;
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border-radius: 1.25rem;
 }
 
-.hero-btn--camel-brown:hover {
+.hero-btn--brown:hover {
     background-color: transparent;
-    border: .0625rem solid #B99470;
+    border: .0625rem solid #FFFFFF;
     transition: 0.3s ease-in-out;
 }
 
