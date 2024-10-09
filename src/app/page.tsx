@@ -16,7 +16,7 @@ export default function Home() {
           blossoming in <span className="uppercase">growth</span>.
         </h1>
 
-        <p className="text-gray-500 md:text-lg">
+        <p className="text-sm md:text-base text-gray-500">
           Koru connects you to the Māori concept of growth and renewal, 
           inviting daily reflections to foster gratitude and mindfulness.
         </p>
@@ -30,7 +30,7 @@ export default function Home() {
           It turns what we have into enough, and more.
         </h2>
         
-        <p className="md:text-lg italic">
+        <p className="text-sm md:text-base italic">
         — Melody Beattie
         </p>
       </section>
@@ -52,25 +52,23 @@ export default function Home() {
                 {benefit.title}
               </h3>
 
-              <p className="text-center">
+              <p className="text-sm md:text-base text-center">
                 {benefit.description}
               </p>
-
-              <Divider sx={{margin: "0", padding: "0"}} />
             </li>
           ))}
         </ul>
       </section>
 
       <section className="main__cta flex flex-col items-center gap-4 md:p-14">
-        <h2 className="text-2xl uppercase text-gray-500 font-bold text-center">
+        <h2 className="text-2xl md:text-4xl uppercase text-gray-500 font-bold text-center">
           Nurture Gratitude in Your Life with Koru
         </h2>
 
         <Carousel />
 
         <Link href="/register">
-          <p className="main__cta-btn text-center uppercase">
+          <p className="main__cta-btn text-center uppercase mb-4 md:mb-0">
             Get started
           </p>
         </Link>
