@@ -1,9 +1,11 @@
 // import data
 import { gratitudeBenefits } from "./data/gratitudeBenefits";
 
-// import component
+// import components
+import Link from "next/link";
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import { Divider } from '@mui/material';
+import Carousel from "./components/Carousel/Carousel";
 
 export default function Home() {
   return (
@@ -46,7 +48,7 @@ export default function Home() {
                 src={benefit.image}
                 alt="photo" />
 
-              <h3 className="card__title">
+              <h3 className="main__card-title">
                 {benefit.title}
               </h3>
 
@@ -58,6 +60,20 @@ export default function Home() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="main__cta flex flex-col items-center gap-4">
+        <h2 className="text-2xl uppercase text-gray-500 font-bold text-center">
+          Nurture Gratitude in Your Life with Koru
+        </h2>
+
+        <Carousel />
+
+        <Link href="/register">
+          <p className="main__cta-btn text-center uppercase">
+            Get started
+          </p>
+        </Link>
       </section>
     </main>
   );
