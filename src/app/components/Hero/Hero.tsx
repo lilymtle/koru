@@ -6,20 +6,27 @@ import { Box } from "@mui/material";
 
 const Hero = () => {
     return (
-        <section className="hero p-4">
-            <div className="hero-container md:flex md:flex-row">
-                <Header />
+        <section className="hero h-screen">
+            <div className="relative h-screen">
+                <video 
+                    playsInline
+                    autoPlay 
+                    muted 
+                    loop
+                    className="absolute top-0 left-0 h-screen w-full object-cover z-[-1]">
+                    <source src="/assets/videos/hero-video.mp4" type="video/mp4" />
+                </video>
                 
-                <div className="hero-content h-full flex flex-col justify-around">
+                <div className="hero-content h-full flex flex-col justify-between p-4">
+                    <Header />
 
-                    <div className="herow-wrapper">
-                        <h1 className="text-3xl font-bold text-center text-white mb-8">
-                            Rooted in <span className="uppercase">reflection</span>, blossoming in <span className="uppercase">growth</span>.
+                    <div className="hero-wrapper">
+                        <h1 className="text-5xl font-bold text-center text-white uppercase">
+                            Koru
                         </h1>
 
-                        <h2 className="text-md text-center mb-8">
-                            Koru connects you  to the Māori concept of growth and renewal,
-                            inviting daily reflections to foster gratitude and mindfulness.
+                        <h2 className="text-3xl font-bold text-center text-white mb-8">
+                            Rooted in <span className="uppercase">reflection</span>, blossoming in <span className="uppercase">growth</span>.
                         </h2>
 
                         <div className="hero-cta flex flex-row justify-center gap-4 mb-8">
