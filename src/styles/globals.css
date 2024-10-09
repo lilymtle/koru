@@ -10,6 +10,30 @@
     font-style: normal;
 }
 
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -60,6 +84,11 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+/* hero icon anmation */
+.wiggle {
+    animation: wiggle 2s infinite;
+}
+
 /* main section */
 .main__quote {
     background-color: #FF7676;
@@ -77,7 +106,7 @@ body {
     flex-grow: 1;
     background-color: transparent;
     padding: 1rem;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 
     &:hover {
         background-color: #EEEEEE;
@@ -106,7 +135,6 @@ body {
     }
 }
 
-
 /* tablet media query */
 @media (min-width: 768px) and (max-width: 1279px) {
     .main__card-list {
@@ -124,5 +152,4 @@ body {
     .main__card-item {
         width: 30%;
     }
-
 }
