@@ -1,5 +1,8 @@
 "use client"
 
+// import styling
+import styles from "./FloatingButton.module.css";
+
 // import component
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
@@ -16,7 +19,7 @@ const FloatingButton = () => {
         <>
             {showFloatingButton && (
                 <div
-                className="floating-button"
+                className={styles.btn}
                 onClick={handleScrollToTop}>
                     <ArrowUpwardIcon
                         sx={{color: "#FFFFFF"}} />
