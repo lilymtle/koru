@@ -23,6 +23,7 @@ const Hero = () => {
                     <div className="hero-wrapper h-4/6 flex flex-col justify-center items-center gap-14 md:h-full md:justify-evenly">
                         <Link href="/">
                             <img
+                                className="hover:opacity-60 duration-500"
                                 src="/assets/logos/logo.png"
                                 alt="koru logo" />
                         </Link>
