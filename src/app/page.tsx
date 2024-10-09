@@ -39,7 +39,7 @@ export default function Home() {
         <li className="main__card-item">
             <img
               className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-2.png"
+              src="/assets/images/benefits-1.png"
               alt="photo" />
 
             <h3 className="card__title">
@@ -75,7 +75,7 @@ export default function Home() {
           <li className="main__card-item">
             <img
               className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-2.png"
+              src="/assets/images/benefits-3.png"
               alt="photo" />
 
             <h3 className="card__title">
@@ -95,7 +95,7 @@ export default function Home() {
           <li className="main__card-item">
             <img
               className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-2.png"
+              src="/assets/images/benefits-4.png"
               alt="photo" />
 
             <h3 className="card__title">
@@ -114,7 +114,7 @@ export default function Home() {
           <li className="main__card-item">
             <img
               className="card__img w-36 h-36 rounded-full object-cover mb-4"
-              src="/assets/images/benefits-2.png"
+              src="/assets/images/benefits-5.png"
               alt="photo" />
 
             <h3 className="card__title">
