@@ -85,6 +85,22 @@ body {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
+    .main__card-list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .main__card-item {
+        width: 30%;
+    }
+}
+
 .main__card-title {
     color: #A67B5B;
     font-size: 1.25rem;
