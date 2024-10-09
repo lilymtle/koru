@@ -1,19 +1,13 @@
 "use client";
 
 // import components
-import Link from "next/link";
 import MenuNav from "../MenuNav/MenuNav";
+import Link from "next/link";
 
 const Header = () => {
 
     return (
-        <header className="bg-transparent w-full flex justify-between p-4">
-            <Link href="/">
-                <img
-                    className="w-10/12 mb-4"
-                    src=""
-                    alt="koru logo" />
-            </Link>
+        <header className="bg-transparent w-full flex justify-center text-white p-4">
             <nav>
                 <MenuNav />
                 <div className="nav__wrapper hidden md:block ">
