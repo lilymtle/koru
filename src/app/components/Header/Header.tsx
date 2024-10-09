@@ -3,13 +3,14 @@
 // import components
 import MenuNav from "../MenuNav/MenuNav";
 import Link from "next/link";
+import NavDrawer from "../NavDrawer/NavDrawer";
 
 const Header = () => {
 
     return (
         <header className="bg-transparent w-full flex justify-center text-white p-4">
             <nav>
-                <MenuNav />
+                <NavDrawer />
                 <div className="nav__wrapper hidden md:block ">
                     <ul className="flex gap-4">
                         <li>
