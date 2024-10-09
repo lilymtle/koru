@@ -119,3 +119,24 @@ body {
 .carousel__btn:hover {
     transition: 0.5s ease-in-out
 }
+
+/* footer component */
+.footer {
+    background-color: #4A4947;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.footer__title {
+    color: #FF7676;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
