@@ -119,4 +119,14 @@ To be added.
 
 ## Contact Information
 
-Please feel free to reach out to me on <a href="https://github.com/lilymtle">GitHub</a> or <a href="https://linkedin.com/in/lilymtle">LinkedIn</a>.
+I welcome constructive feedback from everyone—software engineers, UX/UI designers, and anyone interested in my work! Your insights are invaluable for my growth and the improvement of my projects.
+
+Please feel free to reach out to me on <a href="https://github.com/lilymtle">GitHub</a> or <a href="https://linkedin.com/in/lilymtle">LinkedIn</a>. I also invite you to check out my other project I am working on, as well as my portfolio:
+
+<ul>
+    <li>
+        <a href="https://lilyle.dev">Portfolio</a>
+    </li>
+    <li>
+        <a href="https://mood-compass.vercel.app/">MoodCompass</a>, <a href="https://github.com/lilymtle/mood-compass">MoodCompass GitHub Repo</a>
+</ul>
