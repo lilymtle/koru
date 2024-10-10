@@ -10,9 +10,29 @@ Koru was inspired by my personal journey through difficult times. During this pe
 
 This practice shifted my mindset, fostering positivity, hope, and happiness. I realized that gratitude is a powerful tool for enhancing our lives. My goal is to provide a space where individuals can connect with their own experiences, find joy in the small moments, and embrace the journey of growth and renewal. Together, we can harness the strength of gratitude to enhance our lives in meaningful ways.
 
-
-
 ## Features
+
+I am currently planning on the following features:
+
+<ul>
+    <li>
+        <p><strong>User registration and login:</strong> Secure sign-up and authentication for personalized experiences.</p>
+    </li>
+        <li>
+        <p><strong>Daily gratitude journal entries:</strong> Users can easily add and manage their daily reflections.</p>
+    </li>
+        <li>
+        <p><strong>Search function:</strong> Review previous entries and identify patterns over time.</p>
+    </li>
+        <li>
+        <p><strong>Fully responsive design:</strong> Seamless experience across all devices, from mobile to desktop.</p>
+    </li>
+        <li>
+        <p><strong>Incorporation of UX best practices:</strong> Designed with user experience in mind for intuitive navigation.</p>
+    </li>
+</ul>
+
+*Additional features may be added in the future...*
 
 ## Tech Stack
 
@@ -95,4 +115,8 @@ This practice shifted my mindset, fostering positivity, hope, and happiness. I r
 
 ## Future Improvements
 
+To be added.
+
 ## Contact Information
+
+Please feel free to reach out to me on <a href="https://github.com/lilymtle">GitHub</a> or <a href="https://linkedin.com/in/lilymtle">LinkedIn</a>.
