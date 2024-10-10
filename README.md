@@ -4,6 +4,12 @@
 
 Koru connects you to the Māori concept of growth and renewal, inviting daily reflections to foster gratitude and mindfulness.
 
+Koru is a spiral shape that reflects the unfurling of a silver fern frond. It symbolizes new life, growth, strength, and peace—qualities that can be cultivated through the practice of gratitude.
+
+Here's what it looks like:
+
+![koru plant unfurling](public/assets/images/koru-plant.png)
+
 ## Why Koru?
 
 Koru was inspired by my personal journey through difficult times. During this period, I discovered the transformative power of gratitude through books and my own journal, where I recorded three things I was grateful for each day.
@@ -130,3 +136,23 @@ Please feel free to reach out to me on <a href="https://github.com/lilymtle">Git
     <li>
         <a href="https://mood-compass.vercel.app/">MoodCompass</a>, <a href="https://github.com/lilymtle/mood-compass">MoodCompass GitHub Repo</a>
 </ul>
+
+## Resources
+
+Here is a list of gratitude books I have read and found impactful:
+
+<ol>
+    <li>
+        <a href="https://www.amazon.ca/Power-Gratitude-thankful-happier-healthier/dp/1782494391">The Power of Gratitude: The Thankful Way to a Happier, Healthier You by Lois Blyth</a>
+    </li>
+    <li>
+        <a href="https://www.amazon.ca/Gratitude-Diaries-Looking-Bright-Transform/dp/1101984147">The Gratitude Diaries: How a Year Looking on the Bright Side Can Transform Your Life by Janice Kaplan</a>
+    </li>
+    <li>
+        <a href="https://www.amazon.ca/Power-Thank-You-Discover-Gratitude/dp/1546016120">The Power of Thank You: Discover the Joy of Gratitude by Joyce Meyer</a>
+    </li>
+    <li>
+        <a href="https://www.amazon.ca/Thanks-Science-Gratitude-Make-Happier/dp/0618620192">Thanks!: How the New Science of Gratitude Can Make You Happier by Robert Emmons</a>    
+</ol>
+
+I also recommend the video **"An Experiement in Gratitude | The Science of Happiness** on YouTube, published by Participant. It's less than 8-minutes! You can watch it <a href="https://www.youtube.com/watch?v=oHv6vTKD6lg">here</a>.
