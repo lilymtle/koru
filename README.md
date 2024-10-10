@@ -141,7 +141,7 @@ Please feel free to reach out to me on <a href="https://github.com/lilymtle">Git
 
 Here is a list of gratitude books I have read and found impactful:
 
-<ol>
+<ul>
     <li>
         <a href="https://www.amazon.ca/Power-Gratitude-thankful-happier-healthier/dp/1782494391">The Power of Gratitude: The Thankful Way to a Happier, Healthier You by Lois Blyth</a>
     </li>
@@ -153,6 +153,6 @@ Here is a list of gratitude books I have read and found impactful:
     </li>
     <li>
         <a href="https://www.amazon.ca/Thanks-Science-Gratitude-Make-Happier/dp/0618620192">Thanks!: How the New Science of Gratitude Can Make You Happier by Robert Emmons</a>    
-</ol>
+</ul>
 
 I also recommend the video **"An Experiement in Gratitude | The Science of Happiness** on YouTube, published by Participant. It's less than 8-minutes! You can watch it <a href="https://www.youtube.com/watch?v=oHv6vTKD6lg">here</a>.
