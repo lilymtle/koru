@@ -28,7 +28,7 @@ const Hero = () => {
                                 alt="koru logo" />
                         </Link>
 
-                        <div className="hero-cta flex flex-row justify-center gap-4">
+                        <div className="hero-cta flex flex-row justify-center gap-3">
                             <Link href="/register">
                                 <p className="hero-btn--gray">
                                     Register
