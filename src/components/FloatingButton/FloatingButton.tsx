@@ -7,10 +7,10 @@ import styles from "./FloatingButton.module.css";
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 // import hook
-import useScrollButton from '@/app/hooks/useScrollButton';
+import useScrollButton from '@/hooks/useScrollButton';
 
 // import util
-import { handleScrollToTop } from '@/app/utils/handleScrollToTop';
+import { handleScrollToTop } from '@/utils/handleScrollToTop';
 
 const FloatingButton = () => {
     const showFloatingButton = useScrollButton();

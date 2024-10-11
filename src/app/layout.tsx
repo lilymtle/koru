@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
-import FloatingButton from "./components/FloatingButton/FloatingButton";
+import Footer from "../components/Footer/Footer";
+import Hero from "../components/Hero/Hero";
+import FloatingButton from "../components/FloatingButton/FloatingButton";
 
 export const metadata: Metadata = {
   title: "Koru",
