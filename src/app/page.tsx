@@ -4,7 +4,6 @@ import { gratitudeBenefits } from "../data/gratitudeBenefits";
 // import components
 import Link from "next/link";
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import { Divider } from '@mui/material';
 import Carousel from "../components/Carousel/Carousel";
 
 export default function Home() {
