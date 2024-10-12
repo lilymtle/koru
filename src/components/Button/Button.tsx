@@ -1,18 +1,19 @@
 // import styling
 import styles from "./Button.module.css";
 
-interface ButtonProps {
-    bgcolor?: string;
-    textColor?: string;
-    className?: string;
-}
+// import react node
+import { ReactNode } from "react";
 
-const Button = ({  }) => {
+interface ButtonProps {
+    buttonClassName?: string;
+    children?: ReactNode;
+    type?: "button" | "submit" | "reset"
+};
+
+const Button = ({ buttonClassName, children, type = "button" }: ButtonProps): JSX.Element => {
     return (
-        <button type="submit" className={`rounded-3xl px-4 py-2`}>
-            <p className="text-white font-bold uppercase">
-                Submit
-            </p>
+        <button type={type} className={buttonClassName}>
+                {children}
         </button>
     );
 };
